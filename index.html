@@ -2,43 +2,71 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Site com Menu e Conteúdo</title>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
   <title>Site com Menu, Texto e Rodapé</title>
+  <style>
+    nav{
+      display:flex;
+      justify-content:space-evenly;
+    }
+    a {
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    a img {
+      display: block;
+      width: 120px;
+      align-items: center;
+    }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 </head>
 <body>
 
   <!-- Menu com imagens -->
   <nav>
     <a href="https://www.google.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=Google" alt="Google">
+      <img src="./Botao.png" alt="Google">
+      <span>Google</span>
     </a>
 
     <a href="https://www.youtube.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=YouTube" alt="YouTube">
+      <img src="./Botao.png" alt="YouTube">
+      <span>Youtube</span>
     </a>
 
     <a href="https://www.facebook.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=Facebook" alt="Facebook">
+      <img src="./Botao.png" alt="Facebook">
+      <span>facebook</span>
     </a>
 
     <a href="https://www.instagram.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=Instagram" alt="Instagram">
+      <img src="./Botao.png" alt="Instagram">
+      <span>Instagram</span>
     </a>
 
     <a href="https://www.twitter.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=Twitter" alt="Twitter">
+      <img src="./Botao.png" alt="Twitter">
+      <span>Twitter</span>
     </a>
 
     <a href="https://www.linkedin.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=LinkedIn" alt="LinkedIn">
+      <img src="./Botao.png" alt="LinkedIn">
+      <span>LinkedIn</span>
     </a>
 
     <a href="https://www.whatsapp.com" target="_blank">
-      <img src="https://via.placeholder.com/120x50?text=WhatsApp" alt="WhatsApp">
+      <img src="./Botao.png" alt="WhatsApp">
+      <span>WhatsApp</span>
     </a>
   </nav>
 
